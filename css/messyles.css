@@ -1,10 +1,46 @@
 /*---------------------------------
 GÉNÉRIQUE
 ---------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 
 /*---------------------------------
 ÉLÉMENTS
 ---------------------------------*/
+.wrapper {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.header .wrapper {
+    background-color: #34495E;
+    height: 200;
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 0.36em;
+}
+
+h2 {
+    text-align: right;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    letter-spacing: 2.64px;
+    font-size: 3rem;
+    line-height: 60px;
+}
 
 /*---------------------------------
 COMPONENTS
