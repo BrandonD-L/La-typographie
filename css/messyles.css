@@ -33,6 +33,13 @@ h2 {
     line-height: 60px;
 }
 
+article {
+    display: flex;
+    align-items: center;
+    gap: 67px;
+
+}
+
 /*---------------------------------
 COMPONENTS
 ---------------------------------*/
@@ -48,15 +55,17 @@ COMPONENTS
     padding: 50px;
 }
 
-.content {
-    display: flex;
-    gap: 50px;
-    flex-direction: column;
+
+
+.droite {
+    order: 1;
 }
 
 .card {
     display: flex;
     align-items: center;
+    justify-content: center;
+
 
 
     font-family: "Quicksand", sans-serif;
@@ -65,6 +74,8 @@ COMPONENTS
     line-height: 60%;
     text-decoration: none;
     color: black;
+
+    margin-bottom: 40px;
 }
 
 a:hover {
@@ -75,7 +86,11 @@ a:hover {
     border: 5px solid #D35400;
     border-radius: 100%;
     color: #D35400;
-    font-size: 1rem;
+    background-color: white;
+    font-size: 1.875rem;
+    line-height: 60%;
+    font-weight: bold;
+    letter-spacing: 0.05em;
 
     width: 210px;
     height: 210px;
@@ -83,4 +98,52 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.textes .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.textes p {
+    font-size: 1.25rem;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.textes span {
+    font-weight: bold;
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.footer span {
+    border: 3px solid #BDC3C7;
+    border-radius: 100%;
+    font-weight: normal;
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: auto;
+
+    background-color: #2980B9;
+    padding: 45px;
+    text-align: center;
 }
