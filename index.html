@@ -10,8 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
 <body>
@@ -23,39 +25,40 @@
         </div>
     </header>
 
-    <section class="content">
+    <section class="container">
         <div class="wrapper">
             <h2>
-                « L’écriture, la plus noble conquête de l’homme» - Elsa Triolet
+                « L’écriture, la plus noble conquête de l’homme» <br> - Elsa Triolet
             </h2>
-            <a href="">
-                <article>
-                    <p></p>
-                    <p>Quels guillemets choisir pour le Web ?</p>
-                </article>
-            </a>
+            <div class="content">
+                <a href="#" class="card">
+                    <article class="gauche">
+                        <p class="rond">«</p>
+                        <p>Quels guillemets choisir pour le Web ?</p>
+                    </article>
+                </a>
 
-            <a href="">
-                <article>
-                    <p>Qu’est-ce qu’un espace insécable ?</p>
-                    <p></p>
-                </article>
-            </a>
+                <a href="#" class="card">
+                    <article class="droite">
+                        <p class="rond">&amp;nbsp</p>
+                        <p>Qu’est-ce qu’un espace insécable ?</p>
+                    </article>
+                </a>
 
-            <a href="">
-                <article>
-                    <p></p>
-                    <p>S’occuper de la veuve et de l’orphelin.</p>
-                </article>
-            </a>
+                <a href="#" class="card">
+                    <article class="gauche">
+                        <p class="rond">Windows</p>
+                        <p>S’occuper de la veuve et de l’orphelin.</p>
+                    </article>
+                </a>
 
-            <a href="">
-                <article>
-                    <p>Et la hauteur de ligne dans tout ça ?</p>
-                    <p></p>
-                </article>
-            </a>
-
+                <a href="#" class="card">
+                    <article class="droite">
+                        <p class="rond">line-height</p>
+                        <p>Et la hauteur de ligne dans tout ça ?</p>
+                    </article>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -86,8 +89,10 @@
                 </li>
 
                 <li>
-                    <p>
-
+                    <p class="rond-footer">
+                        <span class="material-symbols-outlined">
+                            arrow_upward
+                        </span>
                     </p>
                 </li>
             </ul>
